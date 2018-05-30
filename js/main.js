@@ -24,6 +24,10 @@ var GameState = {
 
     this.pet = this.game.add.sprite(100, 400, 'pet');
     this.pet.anchor.setTo(0.5);
+
+    //pet animation consuming item
+    this.pet.animations.add('funnyfaces', [1, 2, 3, 2, 1], 7, false);
+
     this.pet.customParams = {health: 100, fun:100};
     this.pet.inputEnabled = true; 
     this.pet.input.enableDrag(); //draggable pet 
@@ -115,6 +119,9 @@ var GameState = {
       petMovement.to({x: x, y: y}, 700);
       petMovement.onComplete.add(function () {
         newItem.destroy();
+        //play animation
+        this.pet.animations.play('funnyfaces');
+        
         this.uiBlocked = false;
 
         var stat;
