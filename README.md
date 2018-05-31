@@ -1,4 +1,5 @@
 Phaser | Javascript - Game Virtual Pet
+
 Simple game for children using Phaser.js Framework
 
 - Many States Files (Boot, Preloader, Home Screen, Game State);
