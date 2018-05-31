@@ -1,4 +1,4 @@
-# Phaser | Javascript - Game Farm Animals
+# Phaser | Javascript - Game Virtual Pet
 
 Simple game for children using Phaser.js Framework
 
