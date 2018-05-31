@@ -8,4 +8,4 @@ Simple game for children using Phaser.js Framework
 - Tween method;
 - Animation with Sprites;
 
-
+![game gif sample](https://user-images.githubusercontent.com/33871503/40758556-e6529b7c-645b-11e8-9d3f-bfcce23066b3.gif)
